@@ -153,10 +153,11 @@ function howManyTimes(wordsCount,wordToSearch){
   sum= 0; 
   for (let i =0 ; i<wordsCount.length; i=i+1) {
 if (wordsCount[i]===wordToSearch){
-  sum++
+  sum=sum+1;
 } 
-    return sum
+    
   }
+  return sum
  }
 console.log(howManyTimes())
 
